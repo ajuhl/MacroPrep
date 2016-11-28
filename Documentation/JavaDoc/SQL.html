@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Doc </title>
+ <style type = "text/css">
+  p {
+   font-size: 16px;
+  }
+ </style>
+</head>
+
+<body>
+CREATE TABLE IF NOT EXISTS `foods` (
+  `id` int(11) NOT NULL,
+  `name` varchar(134) NOT NULL,
+  `weight` decimal(6,2) NOT NULL,
+  `measure` varchar(78) NOT NULL,
+  `protein` decimal(6,2) NOT NULL,
+  `fat` decimal(6,2) NOT NULL,
+  `carbs` decimal(6,2) NOT NULL,
+  `polarization` varchar(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+</body>
